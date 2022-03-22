@@ -1,0 +1,22 @@
+.header {
+  display: flex;
+  position: absolute;
+  top: 0;
+  height: 40px;
+  z-index: 40;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 10px;
+
+  &__img {
+    width: 280px;
+    margin-left: 10px;
+    filter: drop-shadow(0px 0px 2px white);
+    @media (max-width: 425px) {
+      width: 180px;
+    }
+  }
+}
